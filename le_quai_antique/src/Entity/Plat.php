@@ -26,7 +26,7 @@ class Plat
     private ?string $description = null;
 
     #[ORM\ManyToOne(inversedBy: 'plats')]
-    #[ORM\JoinColumn(nullable: false)]
+    #[ORM\JoinColumn(nullable: true)]
     private ?Category $categorie = null;
 
     #[ORM\ManyToMany(targetEntity: Formule::class, mappedBy: 'plats')]
