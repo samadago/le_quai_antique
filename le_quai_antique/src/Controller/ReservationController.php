@@ -16,7 +16,7 @@ use App\Repository\ReservationRepository;
 class ReservationController extends AbstractController
 
 {
-    #[Route('/admin/reservations', name: 'app_reservations')]
+    #[Route('/reservations', name: 'app_reservations')]
     public function index(ReservationRepository $reservationRepository): Response
     {
 
@@ -28,7 +28,7 @@ class ReservationController extends AbstractController
         ]);
     }
 
-    #[Route("/admin/reservations/add", name: "reservation_add")]
+    #[Route("/reservations/add", name: "reservation_add")]
     public function add(Request $request, EntityManagerInterface $entityManager): Response
     {
 
@@ -51,7 +51,7 @@ class ReservationController extends AbstractController
     }
 
 
-    #[Route("/admin/reservations/{id}/edit", name: "reservation_edit")]
+    #[Route("/reservations/{id}/edit", name: "reservation_edit")]
     public function edit($id, ReservationRepository $repo, Request $request, EntityManagerInterface $entityManager): Response
 
     {
@@ -78,7 +78,7 @@ class ReservationController extends AbstractController
 
 
 
-    #[Route("/admin/reservations/{id}/show", name: "reservation_show")]
+    #[Route("/reservations/{id}/show", name: "reservation_show")]
 
     public function show(?Reservation $reservation, Request $request, EntityManagerInterface $entityManager): Response
     {

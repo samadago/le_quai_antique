@@ -2,7 +2,6 @@
 
 namespace App\Controller\Admin;
 
-use App\Entity\Admin;
 use App\Entity\Plat;
 use App\Entity\Category;
 use App\Entity\Reservation;
@@ -13,7 +12,7 @@ class AdminCrudController extends AbstractCrudController
 {
     public static function getEntityFqcn(): string
     {
-        return Admin::class;
+        return Reservation::class;
     }
 
 
