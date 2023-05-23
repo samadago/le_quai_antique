@@ -6,7 +6,8 @@ L’identifiant admin : admini@yopmail.com et le mot de passe : password
 
  Pour la sécurité.
 
- vous trouverez aussi mes diagrammes : -diagramme de sequence ,diagramme de cas d'utilisation et diagramme de classe dans le git vue le poids du fichier qui etait tres lourd pour l'envoyer dans l'espace evaluation studi.
+ vous trouverez aussi mes diagrammes dans le dossier Diagrammes :
+ -diagramme de sequence ,diagramme de cas d'utilisation et diagramme de classe dans le git vue le poids du fichier qui etait tres lourd pour l'envoyer dans l'espace evaluation studi.
 
- -Les maquettes aussi de mon restaurant la version mobile et la version desktop dans le github
- plus de detail se trouve dans le github.
+ -Les maquettes aussi de mon restaurant la version mobile et la version desktop 
+ plus de detail se trouve  dans le dossier Diagrammes
