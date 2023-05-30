@@ -2,7 +2,7 @@ Mon projet le Restaurant Le Quai Antique ,  Je veux parler du fonctionnement de 
 
 Le rôle Admin et les autres utilisateurs pour se connecte sur le restaurant avec l’authentification pour faire la réservation de table ; le CRUD Admin que le gérant du restaurant puisse faire le Dashboard, j’ai utilisé   la documentation Easy .
 
-L’identifiant admin : admini@yopmail.com et le mot de passe : password
+L’identifiant admin : admin@yopmail.com et le mot de passe : password
 
  Pour la sécurité.
 
