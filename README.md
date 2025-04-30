@@ -12,4 +12,5 @@ L’identifiant admin : admin@yopmail.com et le mot de passe : password
  -Les maquettes aussi de mon restaurant la version mobile et la version desktop 
  plus de detail se trouve  dans le dossier Diagrammes
  
--Pour le front end le lien github est :https://github.com/samadago/ecfresto.git  mon site statique du restaurant le quai antique
+-Pour le front end et le Back end  le lien github est :https://github.com/samadago/ecfresto.git  mon site statique du restaurant le quai antique
+-Pour le voir en ligne : https://projet-lequai-antique.com
